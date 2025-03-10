@@ -1,5 +1,5 @@
 
-# Supply Chain Resilience App - Backend
+# EEVE - Backend
 
 This is the FastAPI backend for the Supply Chain Resilience App, which uses GraphRAG (Retrieval-Augmented Generation with graph data) to analyze supply chain disruptions.
 
@@ -53,13 +53,3 @@ docker build -t supply-chain-resilience-api .
 docker run -p 8000:8000 supply-chain-resilience-api
 ```
 
-## Note for Hackathon Demo
-
-This backend currently uses mock data and responses for demonstration purposes. In a production environment, you would:
-
-1. Uncomment and configure the actual dependencies (ArangoDB, LangChain, cuGraph)
-2. Set up proper authentication and security measures
-3. Implement more sophisticated query processing logic
-4. Add error handling and logging
-
-For questions, contact the development team.
